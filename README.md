@@ -1,5 +1,5 @@
 тестовые записи можно отправить через 
-
+```bash
  for i in {1..10}; do
      curl -X POST http://localhost:8080/submit \
           -H "Content-Type: application/json" \
@@ -14,4 +14,5 @@
              "comment": "buffer Last_name"
           }'
  done
+```
 ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
